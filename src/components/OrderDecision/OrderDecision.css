@@ -1,0 +1,25 @@
+.decision-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.decision-logout{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.decision-button-choices{
+    display: flex;
+    justify-content: center; 
+}
+.decision-new-button{
+    width: 10rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.decision-history-button{
+    width: 10rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}

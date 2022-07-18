@@ -1,0 +1,28 @@
+.pizza-form-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.6rem;
+    padding: 2rem;
+    background-color: lightgrey;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.input-logout-button{
+    margin-bottom: 0.75rem;
+    width: 100%;
+}
+
+.input-submit-button{
+    margin-top: 1.5rem;
+    width: 100%;
+}
+.pizza-input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+.pizza-input-label{
+    font-weight: bold;
+}

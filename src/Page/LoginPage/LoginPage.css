@@ -1,0 +1,8 @@
+.login-page-container{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.6rem;
+    padding: 2rem;
+    background-color: lightgrey;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25);
+}

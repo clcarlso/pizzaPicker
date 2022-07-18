@@ -1,0 +1,12 @@
+.pizza-header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+
+}
+
+.pizza-header-text{
+
+    color: white;
+}

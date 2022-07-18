@@ -1,0 +1,31 @@
+.input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+.submit-button-container{
+    padding-top: 0.75rem;
+    padding-bottom: 0.4rem;
+    display: flex;
+    justify-content: center;
+}
+.input-submit-button{
+    width: 100%;
+}
+.login-title{
+    
+    padding-bottom: 1.75rem;
+}
+.login-label{
+    font-weight: bold;
+}
+.login-input-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
