@@ -1,3 +1,15 @@
+Due to some difficulties with the CORS i have a temporary fix but requires temporary access to a public proxy server by going to:
+https://cors-anywhere.herokuapp.com/corsdemo
+
+this would be the solution if i had more time:
+By requesting the resource through a proxy - The simplest way, what you can do is, write a small node server (or if you already have a back-end associate it with your front-end you can use it) which does the request for the 3rd party API and sends back the response. And in that server response now you can allow cross-origin header.
+
+from: https://stackoverflow.com/questions/58122615/handling-cors-when-calling-3rd-party-api#:~:text=You%20need%20to%20have%20the,Origin%20will%20not%20be%20possible.
+
+to get started run 'npm install' in the project directory.
+then 'npm start'
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
