@@ -66,27 +66,8 @@ function OrderHistory(props: OrderHistoryProps) {
     let url = "https://cors-anywhere.herokuapp.com/https://order-pizza-api.herokuapp.com/api/orders";
     const response = await axios.get(url, {method: 'GET',headers: {'Accept': 'application/json'},});
     data = response.data;
-    /*data = [
-      {
-        Crust: "THIN",
-        Flavor: "CHEESE",
-        Order_ID: 1,
-        Size: "L",
-        Table_No: 1
-      },
-      {
-        Crust: "THICK",
-        Flavor: "BACON",
-        Order_ID: 2,
-        Size: "S",
-        Table_No: 3
-      }
-    ]*/
     setDataResults(data);
     setFilteredDataResults(data);
-    console.log(data);
-    console.log(dataResults);
-    //console.log("fetched");
 
     
     }
@@ -110,7 +91,6 @@ function OrderHistory(props: OrderHistoryProps) {
         
     });
     setFilteredDataResults(filteredArr);
-    console.log(filteredArr);
   }
 
   return (
