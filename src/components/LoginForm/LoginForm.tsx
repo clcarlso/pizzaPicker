@@ -12,7 +12,7 @@ function LoginForm(props: LoginFormProps) {
     const [password,setPassword] = useState("");
     const [token,setToken] = useState("");
 
-    //TODO: find out how we handle the headers problem with the api
+    
     const handleSubmit = async(event: any) =>{
         event.preventDefault();
         let credentials = {
