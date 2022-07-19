@@ -16,7 +16,7 @@ function PizzaForm(props: PizzaFormProps) {
   const [size, setSize] = useState("");
   const [table, setTable] = useState("");
 
-//TODO: find out how we handle the headers problem with the api
+
   const handleSubmit = async(event: any) =>{
     event.preventDefault();
     console.log("You have ordered a size " + size + " with " + crust + " crust, " + flavor + " flavor at table " + table );
